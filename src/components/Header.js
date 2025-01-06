@@ -5,7 +5,7 @@ import SocialMedia from "./SocialMedia";
 const Header = ({language}) => {
     return (
         <header className="w-full text-center py-6 fade-in-2s">
-            <h1 className="text-5xl text-gray-800 mb-2">Gizem Ece Avşar</h1>
+            <h1 className="text-5xl text-gray-800 dark:text-white dark:opacity-70 mb-2">Gizem Ece Avşar</h1>
             <SocialMedia />
             <Navigation language={language} />
         </header>

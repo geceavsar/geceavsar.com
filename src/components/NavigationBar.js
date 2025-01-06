@@ -6,18 +6,21 @@ const NavigationBar = ({ language }) => {
             {language === 'en' && (
                 <>
                     <a href="/tr" className="hover:text-blue-500 transition">tr</a>
-                    <a href="/" className="hover:text-blue-500 transition">back</a>
+                    <span>|</span>
+                    <a href="/" className="hover:text-blue-500 transition">home</a>
                 </>
             )}
             {language === 'tr' && (
                 <>
                     <a href="/en" className="hover:text-blue-500 transition">en</a>
-                    <a href="/" className="hover:text-blue-500 transition">geri</a>
+                    <span>|</span>
+                    <a href="/" className="hover:text-blue-500 transition">ana sayfa</a>
                 </>
             )}
             {language === 'multi' && (
                 <>
                     <a href="/tr" className="hover:text-blue-500 transition">tr</a>
+                    <span>|</span>
                     <a href="/en" className="hover:text-blue-500 transition">en</a>
                 </>
             )}

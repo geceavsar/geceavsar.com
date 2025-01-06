@@ -22,10 +22,10 @@ const socialLinks = [
   return (
     <div className="flex justify-center space-x-6 mt-6 fade-in-2s">
       {socialLinks.map((social) => (
-        <a key={social.name} href={social.url} aria-label={social.name}>
+        <a key={social.name} href={social.url} aria-label={social.name} target="_blank" rel="noreferrer">
           <img
             src={social.src}
-            className="text-gray-600 hover:text-blue-500 transition-colors"
+            className="transition-colors"
             alt={social.name}
             width="24"
             height="24"
