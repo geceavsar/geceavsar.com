@@ -25,10 +25,10 @@ const socialLinks = [
         <a key={social.name} href={social.url} aria-label={social.name} target="_blank" rel="noreferrer">
           <img
             src={social.src}
-            className="transition-colors"
             alt={social.name}
             width="24"
             height="24"
+            class="svg-blue-on-hover"
           />
         </a>
       ))}

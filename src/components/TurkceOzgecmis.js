@@ -14,7 +14,7 @@ const TurkceOzgecmis = () => {
         <img src={meImage} alt="Gizem in 2023" className="rounded-lg w-48 mx-auto mb-4" />
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
           bir süredir yazılım geliştirici, genelde bilgisayar mühendisi. zaman zaman geek, çoğunlukla süslü. <br />
-          eskiden bir yerlere yazılım gömerdi, şimdi web geliştirmeyi öğreniyor. daimi öğrenci.
+          eskiden bir yerlere yazılım gömerdi, şimdi daimi öğrenci.
           </ul>
       </section>
 
@@ -23,9 +23,6 @@ const TurkceOzgecmis = () => {
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
             <li>
               <strong>freelancer</strong> (şu an)
-              <p className="text-sm text-gray-600 dark:text-white dark:opacity-70">
-                veri yapıları, algoritmalar, React, Node.js, Tailwind CSS, bir sürü şey
-              </p>
             </li>
             <li>
               <strong>Software Engineer</strong> – Siemens (Ağu 2020 - Eki 2024)
@@ -54,6 +51,12 @@ const TurkceOzgecmis = () => {
           </ul>
         </section>
 
+        <section className="mb-8">
+          <h2 className="text-xl font-medium text-gray-800 border-b pb-2 mb-4 dark:text-white dark:opacity-70">İletişim</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
+            <a href="mailto:geceavsar@gmail.com" className="hover:text-blue-500"> geceavsar@gmail.com </a>
+          </ul>
+        </section>
       </main>
     </div>
   );

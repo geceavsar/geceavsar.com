@@ -14,7 +14,7 @@ const EnglishResume = () => {
         <img src={meImage} alt="Gizem in 2023" className="rounded-lg w-48 mx-auto mb-4" />
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
           software developer for a while, computer engineer often. sometimes geek, mostly sassy. <br />
-          used to embed software, now learning web development. perpetual learner.
+          used to embed software, now a perpetual learner.
           </ul>
       </section>
 
@@ -23,9 +23,6 @@ const EnglishResume = () => {
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
             <li>
               <strong>freelancer</strong> (now)
-              <p className="text-sm text-gray-600 dark:text-white dark:opacity-70">
-                data structures, algorithms, React, Node.js, Tailwind CSS, other stuff
-              </p>
             </li>
             <li>
               <strong>Software Engineer</strong> – Siemens (Aug 2020 - Oct 2024)
@@ -52,7 +49,14 @@ const EnglishResume = () => {
               <strong>Control and Automation Engineering</strong> – Istanbul Technical University, 2019
             </li>
           </ul>
-        </section>        
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-xl font-medium text-gray-800 border-b pb-2 mb-4 dark:text-white dark:opacity-70">Contact</h2>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
+            <a href="mailto:geceavsar@gmail.com" className="hover:text-blue-500"> geceavsar@gmail.com </a>
+          </ul>
+        </section>         
       </main>
     </div>
   );
