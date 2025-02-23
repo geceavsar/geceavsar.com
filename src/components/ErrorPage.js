@@ -20,9 +20,9 @@ const ErrorPage = ({ errorCode }) => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-gray-800 px-4">
       <div className="text-center bg-transparent p-6 max-w-md">
-        <h1 className="text-5xl font-bold text-black-500 mb-4">{errorCode}</h1>
+        <h1 className="text-5xl font-bold text-black-500 dark:text-white dark:opacity-70 mb-4">{errorCode}</h1>
         <p className="text-lg text-gray-600 mb-6">{message}</p>
-        <a href="/" className="hover:text-blue-500 transition">back</a>
+        <a href="/" className="hover:text-blue-500 dark:text-white dark:opacity-70 transition">back</a>
       </div>
     </div>
   );
