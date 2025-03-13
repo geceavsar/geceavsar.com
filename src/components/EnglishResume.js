@@ -54,7 +54,7 @@ const EnglishResume = () => {
         <section className="mb-8">
           <h2 className="text-xl font-medium text-gray-800 border-b pb-2 mb-4 dark:text-white dark:opacity-70">Contact</h2>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-white dark:opacity-70">
-            <a href="mailto:geceavsar@gmail.com" className="hover:text-blue-500"> geceavsar@gmail.com </a>
+            geceavsar [at] gmail [dot] com
           </ul>
         </section>         
       </main>
