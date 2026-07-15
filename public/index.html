@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Software engineer, with a focus on embedded systems.">
   <title>Gizem Ece Avşar</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
     body {
-      font-family: 'Avenir', sans-serif; 
+      font-family: 'Avenir', sans-serif;
       margin: 0;
     }
+
     @keyframes fadeIn {
-        from {
-            opacity: 0;
-        }
-        to {
-            opacity: 1;
-        }
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
     }
-  
+
     .fade-in-2s {
       animation: fadeIn 2s ease-in-out;
     }
+
     .svg-blue-on-hover:hover {
       /* text-blue-500 - #4299e1 */
-      filter: invert(71%) sepia(64%) saturate(4720%) hue-rotate(182deg) brightness(94%) contrast(87%); 
+      filter: invert(71%) sepia(64%) saturate(4720%) hue-rotate(182deg) brightness(94%) contrast(87%);
     }
   </style>
 </head>
+
 <body class="relative min-h-screen flex flex-col items-center justify-center">
-  <div class="absolute top-0 -z-10 h-full w-full bg-white dark:bg-neutral-800"><div class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px] dark:inset-0 bg-fuchsia-400 dark:bg-[size:20px_20px] dark:opacity-20 dark:blur-[100px]"></div></div>
+  <div class="absolute top-0 -z-10 h-full w-full bg-white dark:bg-neutral-800">
+    <div
+      class="absolute bottom-auto left-auto right-0 top-0 h-[500px] w-[500px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(173,109,244,0.5)] opacity-50 blur-[80px] dark:inset-0 bg-fuchsia-400 dark:bg-[size:20px_20px] dark:opacity-20 dark:blur-[100px]">
+    </div>
+  </div>
   <div id="root"></div>
 </body>
+
 </html>

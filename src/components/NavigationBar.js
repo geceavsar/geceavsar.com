@@ -1,42 +1,43 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationBar = ({ barType }) => {
     return (
         <nav className="flex justify-center space-x-6 mt-6 text-gray-500 fade-in-2s">
             {barType === 'en' && (
                 <>
-                    <a href="/tr" className="hover:text-blue-500 transition">tr</a>
+                    <Link to="/tr" className="hover:text-blue-500 transition">tr</Link>
                     <span>|</span>
-                    <a href="/" className="hover:text-blue-500 transition">home</a>
+                    <Link to="/" className="hover:text-blue-500 transition">home</Link>
                     <span>|</span>
-                    <a href="/blog" className="hover:text-blue-500 transition">blog</a>
+                    <Link to="/blog" className="hover:text-blue-500 transition">blog</Link>
                 </>
             )}
             {barType === 'tr' && (
                 <>
-                    <a href="/en" className="hover:text-blue-500 transition">en</a>
+                    <Link to="/en" className="hover:text-blue-500 transition">en</Link>
                     <span>|</span>
-                    <a href="/" className="hover:text-blue-500 transition">ana sayfa</a>
+                    <Link to="/" className="hover:text-blue-500 transition">ana sayfa</Link>
                     <span>|</span>
-                    <a href="/blog" className="hover:text-blue-500 transition">blog</a>
+                    <Link to="/blog" className="hover:text-blue-500 transition">blog</Link>
                 </>
             )}
             {barType === 'multi' && (
                 <>
-                    <a href="/tr" className="hover:text-blue-500 transition">tr</a>
+                    <Link to="/tr" className="hover:text-blue-500 transition">tr</Link>
                     <span>|</span>
-                    <a href="/en" className="hover:text-blue-500 transition">en</a>
+                    <Link to="/en" className="hover:text-blue-500 transition">en</Link>
                     <span>|</span>
-                    <a href="/blog" className="hover:text-blue-500 transition">blog</a>
+                    <Link to="/blog" className="hover:text-blue-500 transition">blog</Link>
                 </>
             )}
             {barType === 'blog' && (
                 <>
-                    <a href="/" className="hover:text-blue-500 transition">home</a>
+                    <Link to="/" className="hover:text-blue-500 transition">home</Link>
                     <span>|</span>
-                    <a href="/en" className="hover:text-blue-500 transition">en</a>
+                    <Link to="/en" className="hover:text-blue-500 transition">en</Link>
                     <span>|</span>
-                    <a href="/tr" className="hover:text-blue-500 transition">tr</a>
+                    <Link to="/tr" className="hover:text-blue-500 transition">tr</Link>
                 </>
             )}
         </nav>
